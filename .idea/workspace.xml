@@ -1,7 +1,129 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2dd6285-d03b-46d2-9511-d45fe1cbc856" name="Default" comment="" />
+    <list default="true" id="d2dd6285-d03b-46d2-9511-d45fe1cbc856" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/business/Address/IAddress.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/business/account/IAccount.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/business/authentication/IAuthentication.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/business/customer/ICustomer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/business/product/IProduct.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/business/product/IProductType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/business/reservation/IReservation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/model/FRProductTypeModel.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/mysql-connector-java-5.1.41-bin.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/Controller.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/LoginWindow.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/MainWindow.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/ReservationSub/CheckInReservation.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/ReservationSub/ConfirmedReservation.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/ReservationSub/ReservationBusiness.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/ReservationSub/ReservationService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/ReservationSub/WaitingReservation.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/ReservationSub/command/DeleteReservationCommand.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/ReservationSub/command/EditReservationCommand.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/ReservationSub/command/ReservationCommands.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/ReservationSub/command/ReservationSubSystemOperations.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/ReservationSub/command/SaveReservationCommand.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/ReservationSub/payment/CashPayment.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/ReservationSub/payment/CreditPayment.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/ReservationSub/payment/DebitPayment.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/ReservationSub/payment/IPayment.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/ReservationSub/payment/PaymentBusiness.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/ReservationSub/payment/PaypalPayment.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/Shared/UrlLoader.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/Shared/WindowNavigation.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/accountsub/AccountFacade.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/accountsub/AccountService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/authenticationsub/AuthenticationService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/authenticationsub/AuthenticationSubcriber.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/authenticationsub/AuthenticatoinFacade.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/authenticationsub/proxy/Authentication.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/authenticationsub/proxy/AuthenticationProxy.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/authenticationsub/proxy/IAuthentication.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/controller/AccountController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/controller/AccountTapController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/controller/Guest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/controller/GuestTapController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/controller/IController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/controller/LoginController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/controller/Payment.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/controller/ReportTapController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/controller/ReservationController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/controller/ReservationCtrl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/controller/ReservationTapController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/controller/RoomRegistrationController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/controller/RoomTabController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/controller/RoomTypeController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/controller/RoomTypeTapController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/dbconnection/DataAccessFacade.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/dbconnection/Database.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/dbconnection/DatabaseSingleton.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/dbconnection/IDatabase.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/dbconnection/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/dbsub/AccountImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/dbsub/AddressImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/dbsub/DBFacade.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/dbsub/DBService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/dbsub/Database.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/dbsub/GenerateDBImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/dbsub/GuestImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/dbsub/IAccount.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/dbsub/IAddress.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/dbsub/IGenerateDB.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/dbsub/IGuest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/dbsub/IReservation.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/dbsub/IRoom.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/dbsub/IRoomType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/dbsub/ReservationImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/dbsub/RoomImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/dbsub/RoomTypeImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/model/Facility.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/model/Package.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/model/ReservationHistory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/model/RoomType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/model/User.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/statusenums/AccountStatus.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/statusenums/CustomerStatus.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/statusenums/FacilityStatus.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/statusenums/ReservationStatus.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/statusenums/RoomStatus.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/statusenums/Status.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/statusenums/UserRole.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/resource/asset/icHotel.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/resource/asset/sample_file" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/resource/css/sample.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/resource/sample.fxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/resource/view/Account.fxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/resource/view/AccountTap.fxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/resource/view/Guest.fxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/resource/view/GuestTap.fxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/resource/view/HomeWindow.fxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/resource/view/LoginWindow.fxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/resource/view/MainWindow.fxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/resource/view/Payment.fxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/resource/view/ReportTap.fxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/resource/view/ReservationTap.fxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/resource/view/RoomRegistrationForm.fxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/resource/view/RoomTap.fxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/resource/view/RoomType.fxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/resource/view/RoomTypeTap.fxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/resource/view/addReservation.fxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/AccountMainTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/AccountTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/AddressMainTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/DatabaseMainTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/GuestMainTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/RoomMainTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/RoomTypeMainTest.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/dbsub/IDatabase.java" afterPath="$PROJECT_DIR$/src/main/db/IDatabase.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/model/Account.java" afterPath="$PROJECT_DIR$/src/main/model/FRAccountModel.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/model/Address.java" afterPath="$PROJECT_DIR$/src/main/model/FRAddressModel.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/model/Guest.java" afterPath="$PROJECT_DIR$/src/main/model/FRCustomerModel.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/model/Reservation.java" afterPath="$PROJECT_DIR$/src/main/model/FRReservationModel.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/model/Room.java" afterPath="$PROJECT_DIR$/src/main/model/FRProductModel.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,23 +135,139 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AccountFacade.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/accountsub/AccountFacade.java">
+      <file leaf-file-name="FRAccountModel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/model/FRAccountModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="693">
+              <caret line="36" column="55" lean-forward="false" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FRAddressModel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/model/FRAddressModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="577">
+              <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FRCustomerModel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/model/FRCustomerModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="640">
+              <caret line="39" column="39" lean-forward="false" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FRProductModel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/model/FRProductModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FRProductTypeModel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/model/FRProductTypeModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="241">
+              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FRReservationHistoryModel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/model/FRReservationHistoryModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="388">
+              <caret line="30" column="51" lean-forward="false" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FRReservationModel.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/model/FRReservationModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="241">
+              <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IProductType.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/business/product/IProductType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="5" column="29" lean-forward="false" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IAuthentication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/business/authentication/IAuthentication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="5" column="32" lean-forward="false" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IAccount.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/business/account/IAccount.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/db/IDatabase.java" />
+        <option value="$PROJECT_DIR$/src/main/business/IReservation.java" />
+        <option value="$PROJECT_DIR$/src/main/business/reservation/IReservation.java" />
+        <option value="$PROJECT_DIR$/src/main/business/customer/ICustomer.java" />
+        <option value="$PROJECT_DIR$/src/main/model/FRAccountModel.java" />
+        <option value="$PROJECT_DIR$/src/main/model/FRAddressModel.java" />
+        <option value="$PROJECT_DIR$/src/main/model/FRCustomerModel.java" />
+        <option value="$PROJECT_DIR$/src/main/model/FRProductModel.java" />
+        <option value="$PROJECT_DIR$/src/main/model/FRProductTypeModel.java" />
+        <option value="$PROJECT_DIR$/src/main/model/FRReservationHistoryModel.java" />
+        <option value="$PROJECT_DIR$/src/main/model/FRReservationModel.java" />
+      </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
@@ -38,6 +276,7 @@
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -78,22 +317,12 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RSFramework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RSFramework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -115,7 +344,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="accountsub" />
+              <option name="myItemId" value="db" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -133,7 +362,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="business" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -145,6 +378,9 @@
     </panes>
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="main.db" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\IntellijWorkspace\ASD Project\RSFramework\src" />
     </key>
@@ -393,12 +629,13 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -409,7 +646,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -425,9 +661,143 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="293">
           <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/GuestMainTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="14" column="16" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/db/IDatabase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/business/reservation/IReservation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/business/customer/ICustomer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/business/product/IProduct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/business/Address/IAddress.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/business/account/IAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/business/product/IProductType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="29" lean-forward="false" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/business/authentication/IAuthentication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="32" lean-forward="false" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/model/FRAccountModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="36" column="55" lean-forward="false" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/model/FRAddressModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="577">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/model/FRCustomerModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="39" column="39" lean-forward="false" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/model/FRProductModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/model/FRProductTypeModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/model/FRReservationHistoryModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="30" column="51" lean-forward="false" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/model/FRReservationModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
