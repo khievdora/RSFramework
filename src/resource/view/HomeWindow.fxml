@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="resource.view.HomeWindow">
+   <children>
+      <BorderPane layoutX="2.0" layoutY="2.0" prefHeight="600.0" prefWidth="800.0">
+         <top>
+            <VBox prefHeight="140.0" prefWidth="800.0" BorderPane.alignment="CENTER">
+               <children>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="6.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true" />
+                        <Label layoutX="103.0" layoutY="34.0" text="Hotel Reservation System" textFill="#2513c9">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </VBox>
+         </top>
+      </BorderPane>
+   </children>
+</AnchorPane>
